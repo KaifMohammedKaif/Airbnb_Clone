@@ -1,0 +1,26 @@
+<% layout("/layouts/biolerplate.ejs") %>
+<div class="row">
+  <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-10 offset-1">
+    <h1 class="del-head">Sign up to Travel World</h1>
+    <form action="/signup" method="post" class="needs-validation">
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input name="username" type="text" class="form-control" required />
+        <div class="valid-feedback">Looks good</div>
+        <div class="invalid-feedback">Enter a unique username</div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input name="email" type="text" class="form-control" required />
+        <div class="invalid-feedback">Enter a valid email</div>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input name="password" type="text" class="form-control" required />
+        <div class="valid-feedback">Looks good!</div>
+        <div class="invalid-feedback">Enter a valid password</div>
+      </div>
+      <button class="btn btn-danger">Sign-up</button>
+    </form>
+  </div>
+</div>

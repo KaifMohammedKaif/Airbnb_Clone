@@ -1,0 +1,25 @@
+<% layout("/layouts/biolerplate.ejs") %>
+<h1 class="del-head del-head-index">All the Listing:</h1>
+<div
+  class="all-cards-container row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3"
+>
+  <% allListings.forEach(list => { %>
+  <a href="/listing/<%= list._id %>" class="card-links">
+    <div class="card index-card">
+      <img
+        src="<%= list.image.url %>"
+        alt=""
+        class="card-img-top"
+        width="100%"
+        height="250"
+      />
+      <div class="card-body">
+        <h5 class="card-title"><%= list.title %></h5>
+        <p class="card-text">
+          &#8377; <%= list.price.toLocaleString("en-IN") %> / Night
+        </p>
+      </div>
+    </div>
+  </a>
+  <% }); %>
+</div>

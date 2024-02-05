@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tahoma", Geneva, Verdana, sans-serif;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* temp style */
+
+.containers {
+  flex: 1;
+  margin-top: 75px;
+}
+
+.del-head-index {
+  margin-left: 20px;
+}
+
+/* navbar */
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.nav-link,
+.card-links {
+  color: #222222 !important;
+}
+.navbar-brand {
+  color: rgb(207, 23, 23) !important;
+  font-weight: 700;
+}
+
+.search-input {
+  border-radius: 20px;
+  width: 300px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  border-radius: 20px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+/* index page */
+
+.all-cards-container {
+  padding: 15px;
+}
+
+.index-card:hover {
+  opacity: 0.8;
+}
+
+/* edit & new page */
+
+.btn-add,
+.btn-edit {
+  background-color: rgb(207, 23, 23) !important;
+  border: none !important;
+}
+
+/* show page */
+
+.show-image {
+  height: 45vh;
+  background-size: auto !important;
+}
+
+@media (max-width: 500px) {
+  .show-image {
+    height: 30vh;
+  }
+}
+
+.edit-links {
+  color: red !important;
+}
+
+.edit-links:hover {
+  color: white !important;
+}
+
+/* footer */
+.footer {
+  background-color: #e5e5e5 !important;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.f-info-brand {
+  width: 100%;
+}
+.f-info-terms {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
