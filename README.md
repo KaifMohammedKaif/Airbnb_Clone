@@ -1,6 +1,6 @@
-# Hotel and Resort Listing Platform
+# Airbnb Clone
 
-Welcome to the Hotel and Resort Listing Platform repository! This project is a comprehensive solution for managing and showcasing hotels and resorts, designed with a mobile-responsive interface for seamless user experience across devices.
+This project is a comprehensive solution for managing and showcasing hotels and resorts, designed with a mobile-responsive interface for seamless user experience across devices.
 
 ## Features
 
